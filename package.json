@@ -5,7 +5,7 @@
   "scripts": {
     "start": "mdx-deck deck.mdx",
     "build": "mdx-deck build deck.mdx",
-    "help": "mdx-deck"
+    "help": "mdx-deck",
     "now-build": "mdx-deck build demo-advanced.mdx --no-html && cp -r images dist/ && cp -r snippets dist/"
   },
   "devDependencies": {
