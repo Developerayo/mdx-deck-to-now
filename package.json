@@ -6,7 +6,7 @@
     "start": "mdx-deck deck.mdx",
     "build": "mdx-deck build deck.mdx",
     "help": "mdx-deck",
-    "now-build": "mdx-deck build demo-advanced.mdx --no-html && cp -r images dist/ && cp -r snippets dist/"
+    "now-build": "mdx-deck build deck.mdx --no-html && cp -r images dist/ && cp -r snippets dist/"
   },
   "devDependencies": {
     "mdx-deck": "^2.0.0"
