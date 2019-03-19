@@ -1,6 +1,4 @@
-# mdx-deck basic template
-
-This was generated with [mdx-deck][]'s `npm init deck` command.
+# Deploying a MDX-DECK PRESENTTION APP TO ZEIT NOW
 
 ## Development
 
@@ -18,6 +16,14 @@ To build the presentation deck as static HTML:
 
 ```sh
 npm run build
+```
+
+## Deploying
+
+To deploy to ZEIT now:
+
+```sh
+now
 ```
 
 For more documentation see the [mdx-deck][] repo.
