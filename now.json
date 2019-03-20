@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "mdx-desk-to-now",
+  "builds": [
+    {"src": "package.json", "use": "@now/static-build"}
+  ]

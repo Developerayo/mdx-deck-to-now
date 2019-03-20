@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "my-presentation-name",
+  "name": "mdx-desk-to-now",
   "version": "1.0.0",
   "scripts": {
     "start": "mdx-deck deck.mdx",

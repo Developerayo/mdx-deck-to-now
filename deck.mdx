@@ -1,23 +1,58 @@
+import React from 'react'
 import { Head, Notes } from 'mdx-deck'
 
-export { theme } from './theme'
+export { dark as theme } from 'mdx-deck/themes'
 
 <Head>
-  <title>Presentation Title</title>
+  <title>Deploying MDX Desk to Zeit now</title>
 </Head>
 
-# Hello
+## Welcome to my Talk
+Deploying a MDX-DECK PRESENTTION APP TO ZEIT NOW
+
 
 ---
 
-## Edit this file
+<Head>
+  <title>Deploying MDX Desk to Zeit now</title>
+</Head>
 
-To create your presentation
+## now.json
+```json
+
+{
+  "version": 2,
+  "name": "mdx-desk-to-now",
+  "builds": [
+    {"src": "package.json", "use": "@now/static-build"}
+  ]
+}
+
+```
+
+---
+
+<Head>
+  <title>Deploying MDX Desk to Zeit now</title>
+</Head>
+
+## Scripts "package.json"
+
+```json
+
+{
+    "scripts": {
+        ...
+        "now-build": "mdx-deck build demo-advanced.mdx --no-html && cp -r images dist/ && cp -r snippets dist/"
+    }
+}
+
+```
+
+---
+
+
 
 <Notes>
-Create speaker notes with the Notes component
+hello
 </Notes>
-
----
-
-<https://github.com/jxnblk/mdx-deck>
