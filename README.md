@@ -1,5 +1,7 @@
 # Deploying a MDX-DECK PRESENTTION APP TO ZEIT NOW
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Developerayo/mdx-deck-to-now.svg)](https://greenkeeper.io/)
+
 ## Development
 
 To run the presentation deck in development mode:
