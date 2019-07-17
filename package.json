@@ -9,6 +9,6 @@
     "now-build": "mdx-deck build deck.mdx --no-html && cp -r images dist/ && cp -r snippets dist/"
   },
   "devDependencies": {
-    "mdx-deck": "^2.0.0"
+    "mdx-deck": "^3.0.0"
   }
 }
